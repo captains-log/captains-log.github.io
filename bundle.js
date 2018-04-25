@@ -23338,7 +23338,8 @@ var router = new _vueRouter2.default({
 });
 
 _vue2.default.use(_vueResource2.default);
-_vue2.default.http.options.root = 'http://localhost:4000';
+// Vue.http.options.root = 'http://localhost:4000'
+_vue2.default.http.options.root = 'http://35.189.243.23:4000';
 
 _vue2.default.use(_plugins2.default);
 
